@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(38, 1, 71);
+    color: white;
+}
+.left{
+    margin-left: 30px;
+
+}
+
+.img img{
+    width: 30px;
+    height: 30px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin: 5px 15px 0 15px;
+    cursor: pointer;
+    
+}
+.far,.fas{
+    cursor: pointer;
+}
+.right,.right .signin{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    /* cursor: pointer; */
+
+}
+.right{
+    margin-right: 40px;
+}
+.main{
+    display: flex;
+    width: 100vw;
+}
+.main .right-tab{
+    background-color: rgb(29, 6, 83);
+    width: 6%;
+}
+.main .right-tab .up{
+    margin: 30px;
+}
+.m1{
+    cursor: pointer;
+    color: white;
+}
+.main .right-tab .bottom{
+    margin: 248px 30px 0px 30px;
+    color: white;
+
+}
+.container{
+    width: 94%;
+    background-color: rgb(16, 1, 39);
+}
+.container .container2{
+    width: 75%;
+
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .container2 .box{
+    background-color: white;
+    margin: 3px;
+    height: 185px;
+    width: 200px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+
+}
+.box img{
+    height: 48px;
+    width: 100px;
+    margin: 10px 0px 0px 50px;
+}
+.box .item1{
+    margin: 10px 0px 5px 20px;
+    padding-left: 23px;
+}
+.box .item1 span{
+    height: 5px;
+    width: 5px;
+    background-color: green;
+    margin: 3px;
+    padding: 0px 6px 0px 6px;
+    border-radius: 50%;
+}
+
+.box .item2{
+    margin:30px 0px 5px 20px;
+    padding-left: 6px;
+}
+.box .item2 a{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 9px 7px 9px 7px;
+    border-radius: 6px;
+}
